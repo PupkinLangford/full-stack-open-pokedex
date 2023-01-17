@@ -3,7 +3,7 @@
 var="$(curl "localhost:8080/health")" 
 echo $var
 
-if [[ $var =~ "ok" ]]; then
+if [[ $var =~ "ook" ]]; then
     exit 0
 else
     exit 1
